@@ -1,0 +1,191 @@
+[
+  {
+    "YolazNickName": "AlexFit",
+    "YolazUserIcon": "assets/yolaz_figure/1/character_1_img_1.webp",
+    "YolazShowPhotoArray": [
+      "assets/yolaz_figure/1/character_1_img_1.webp",
+      "assets/yolaz_figure/1/character_1_img_2.webp",
+      "assets/yolaz_figure/1/character_1_img_3.webp",
+      "assets/yolaz_figure/1/character_1_img_4.webp"
+    ],
+    "YolazShowVideoArray": [
+      "assets/yolaz_figure/1/character_1_video_1.mp4"
+    ],
+    "YolazShowThumbnailArray": [
+      "assets/yolaz_figure/1/character_1_video_1_cover.webp"
+    ],
+    "YolazShowMotto": "A strategic fitness enthusiast who plans every workout with precision. Loves analyzing training methods and optimizing performance through data-driven approaches.",
+    "YolazShowFollowNum": 7,
+    "YolazShowLike": 12,
+    "YolazShowSayhi": "Hey! Ready to crush some goals today? I've been planning an intense workout session and would love to share some training tips with you. Let's push our limits together!",
+    "YolazRunningTime": 76
+  },
+  {
+    "YolazNickName": "MaxPower",
+    "YolazUserIcon": "assets/yolaz_figure/2/character_2_img_1.webp",
+    "YolazShowPhotoArray": [
+      "assets/yolaz_figure/2/character_2_img_1.webp",
+      "assets/yolaz_figure/2/character_2_img_2.webp",
+      "assets/yolaz_figure/2/character_2_img_3.webp",
+      "assets/yolaz_figure/2/character_2_img_4.webp"
+    ],
+    "YolazShowVideoArray": [
+      "assets/yolaz_figure/2/character_2_video_1.mp4"
+    ],
+    "YolazShowThumbnailArray": [
+      "assets/yolaz_figure/2/character_2_video_1_cover.webp"
+    ],
+    "YolazShowMotto": "An energetic leader who thrives on challenging workouts and motivating others. Enjoys competitive training and setting ambitious fitness goals. Believes in pushing boundaries.",
+    "YolazShowFollowNum": 9,
+    "YolazShowLike": 15,
+    "YolazShowSayhi": "What's up! Just finished an amazing training session and feeling pumped! Want to join me for the next workout? I'm always looking for training partners who are serious about getting stronger.",
+    "YolazRunningTime": 34
+  },
+  {
+    "YolazNickName": "ZoeFlex",
+    "YolazUserIcon": "assets/yolaz_figure/3/character_3_img_1.webp",
+    "YolazShowPhotoArray": [
+      "assets/yolaz_figure/3/character_3_img_1.webp",
+      "assets/yolaz_figure/3/character_3_img_2.webp",
+      "assets/yolaz_figure/3/character_3_img_3.webp",
+      "assets/yolaz_figure/3/character_3_img_4.webp"
+    ],
+    "YolazShowVideoArray": [
+      "assets/yolaz_figure/3/character_3_video_1.mp4"
+    ],
+    "YolazShowThumbnailArray": [
+      "assets/yolaz_figure/3/character_3_video_1_cover.webp"
+    ],
+    "YolazShowMotto": "A creative fitness enthusiast who combines artistic expression with physical training. Loves trying new workout styles and finding unique ways to stay active. Believes fitness should be fun.",
+    "YolazShowFollowNum": 5,
+    "YolazShowLike": 8,
+    "YolazShowSayhi": "Hi there! I just discovered this amazing new workout routine and I'm so excited to share it! Fitness is all about finding what makes you happy and strong. Want to explore some creative training ideas?",
+    "YolazRunningTime": 51
+  },
+  {
+    "YolazNickName": "RyanFit",
+    "YolazUserIcon": "assets/yolaz_figure/4/character_4_img_1.webp",
+    "YolazShowPhotoArray": [
+      "assets/yolaz_figure/4/character_4_img_1.webp",
+      "assets/yolaz_figure/4/character_4_img_2.webp",
+      "assets/yolaz_figure/4/character_4_img_3.webp",
+      "assets/yolaz_figure/4/character_4_img_4.webp"
+    ],
+    "YolazShowVideoArray": [
+      "assets/yolaz_figure/4/character_4_video_1.mp4"
+    ],
+    "YolazShowThumbnailArray": [
+      "assets/yolaz_figure/4/character_4_video_1_cover.webp"
+    ],
+    "YolazShowMotto": "A reliable and dedicated athlete who values consistency and proper form above all. Enjoys structured training programs and helping others build sustainable fitness habits through disciplined practice.",
+    "YolazShowFollowNum": 6,
+    "YolazShowLike": 10,
+    "YolazShowSayhi": "Hello! Hope you're having a great day! I'm heading to the gym for my regular training session. Consistency is key to building strength. Would you like to join me and learn proper techniques?",
+    "YolazRunningTime": 54
+  },
+  {
+    "YolazNickName": "LunaGym",
+    "YolazUserIcon": "assets/yolaz_figure/5/character_5_img_1.webp",
+    "YolazShowPhotoArray": [
+      "assets/yolaz_figure/5/character_5_img_1.webp",
+      "assets/yolaz_figure/5/character_5_img_2.webp",
+      "assets/yolaz_figure/5/character_5_img_3.webp",
+      "assets/yolaz_figure/5/character_5_img_4.webp"
+    ],
+    "YolazShowVideoArray": [
+      "assets/yolaz_figure/5/character_5_video_1.mp4"
+    ],
+    "YolazShowThumbnailArray": [
+      "assets/yolaz_figure/5/character_5_video_1_cover.webp"
+    ],
+    "YolazShowMotto": "A passionate fitness coach who loves helping others discover their potential. Enthusiastic about creating supportive training environments. Believes everyone can become stronger with proper guidance.",
+    "YolazShowFollowNum": 8,
+    "YolazShowLike": 14,
+    "YolazShowSayhi": "Hey friend! I'm so glad you're here! Fitness is a journey we can take together, and I'd love to help you reach your goals. Every step forward counts. Ready to start an amazing workout adventure?",
+    "YolazRunningTime": 30
+  },
+  {
+    "YolazNickName": "KaiMove",
+    "YolazUserIcon": "assets/yolaz_figure/6/character_6_img_1.webp",
+    "YolazShowPhotoArray": [
+      "assets/yolaz_figure/6/character_6_img_1.webp",
+      "assets/yolaz_figure/6/character_6_img_2.webp",
+      "assets/yolaz_figure/6/character_6_img_3.webp",
+      "assets/yolaz_figure/6/character_6_img_4.webp"
+    ],
+    "YolazShowVideoArray": [
+      "assets/yolaz_figure/6/character_6_video_1.mp4"
+    ],
+    "YolazShowThumbnailArray": [
+      "assets/yolaz_figure/6/character_6_video_1_cover.webp"
+    ],
+    "YolazShowMotto": "A practical athlete who focuses on efficient training methods and real-world results. Enjoys hands-on learning and experimenting with different exercise techniques. Values action over theory.",
+    "YolazShowFollowNum": 4,
+    "YolazShowLike": 7,
+    "YolazShowSayhi": "What's going on! Just got back from an intense training session. I love trying new exercises and seeing what works best. Want to swap some workout tips? Let's get moving and see what we can achieve!",
+    "YolazRunningTime": 51
+  },
+  {
+    "YolazNickName": "MiaFit",
+    "YolazUserIcon": "assets/yolaz_figure/7/character_7_img_1.webp",
+    "YolazShowPhotoArray": [
+      "assets/yolaz_figure/7/character_7_img_1.webp",
+      "assets/yolaz_figure/7/character_7_img_2.webp",
+      "assets/yolaz_figure/7/character_7_img_3.webp",
+      "assets/yolaz_figure/7/character_7_img_4.webp"
+    ],
+    "YolazShowVideoArray": [
+      "assets/yolaz_figure/7/character_7_video_1.mp4"
+    ],
+    "YolazShowThumbnailArray": [
+      "assets/yolaz_figure/7/character_7_video_1_cover.webp"
+    ],
+    "YolazShowMotto": "A spontaneous fitness enthusiast who loves mixing up routines and staying active in creative ways. Enjoys outdoor workouts and trying new sports. Believes fitness should be exciting and never boring.",
+    "YolazShowFollowNum": 3,
+    "YolazShowLike": 6,
+    "YolazShowSayhi": "Hi! I'm always up for a fun workout session! Just finished an amazing outdoor training and feeling energized. Life's too short for boring exercises. Want to try something new and exciting together?",
+    "YolazRunningTime": 85
+  },
+  {
+    "YolazNickName": "SamGain",
+    "YolazUserIcon": "assets/yolaz_figure/8/character_8_img_1.webp",
+    "YolazShowPhotoArray": [
+      "assets/yolaz_figure/8/character_8_img_1.webp",
+      "assets/yolaz_figure/8/character_8_img_2.webp",
+      "assets/yolaz_figure/8/character_8_img_3.webp",
+      "assets/yolaz_figure/8/character_8_img_4.webp"
+    ],
+    "YolazShowVideoArray": [
+      "assets/yolaz_figure/8/character_8_video_1.mp4"
+    ],
+    "YolazShowThumbnailArray": [
+      "assets/yolaz_figure/8/character_8_video_1_cover.webp"
+    ],
+    "YolazShowMotto": "A detail-oriented trainer who meticulously tracks progress and optimizes training. Enjoys analyzing workout data and creating personalized programs. Believes precision leads to better results.",
+    "YolazShowFollowNum": 10,
+    "YolazShowLike": 13,
+    "YolazShowSayhi": "Hey! Great to meet you! I've been tracking my training progress and noticed some interesting patterns. Want to discuss workout strategies? I love sharing knowledge about effective training methods.",
+    "YolazRunningTime": 57
+  },
+  {
+    "YolazNickName": "EvaStr",
+    "YolazUserIcon": "assets/yolaz_figure/9/character_9_img_1.webp",
+    "YolazShowPhotoArray": [
+      "assets/yolaz_figure/9/character_9_img_1.webp",
+      "assets/yolaz_figure/9/character_9_img_2.webp",
+      "assets/yolaz_figure/9/character_9_img_3.webp",
+      "assets/yolaz_figure/9/character_9_img_4.webp"
+    ],
+    "YolazShowVideoArray": [
+      "assets/yolaz_figure/9/character_9_video_1.mp4"
+    ],
+    "YolazShowThumbnailArray": [
+      "assets/yolaz_figure/9/character_9_video_1_cover.webp"
+    ],
+    "YolazShowMotto": "A warm and encouraging fitness companion who makes every workout enjoyable. Loves building community through shared training experiences. Believes in supporting others and creating positive spaces.",
+    "YolazShowFollowNum": 2,
+    "YolazShowLike": 5,
+    "YolazShowSayhi": "Hello! So happy you're here! I believe fitness is better when we support each other. Whether you're just starting or already strong, I'm here to cheer you on. Let's make today amazing together!",
+    "YolazRunningTime": 53
+  }
+]
