@@ -90,9 +90,9 @@ class _WalletPageState extends State<WalletPage> {
 
   Future<void> _checkConnectivityAndInit() async {
     try {
-      final ConnectivityResult connectivityResult =
+      final List<ConnectivityResult> connectivityResults =
           await Connectivity().checkConnectivity();
-      final hasConnection = connectivityResult != ConnectivityResult.none;
+      final hasConnection = !connectivityResults.contains(ConnectivityResult.none);
       if (!hasConnection) {
         _showToast('No internet connection. Please check your network.');
         return;
