@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>actionMediatorVisibility</key>
+	<string>difficultChapterInterval</string>
+	<key>commandWithoutObserver</key>
+	<string>notificationBufferSize</string>
+	<key>directNavigationSkewy</key>
+	<string>popupNearShape</string>
+	<key>draggableImagePressure</key>
+	<string>animatedSensorAlignment</string>
+	<key>intensityProcessSpeed</key>
+	<string>shaderViaKind</string>
+	<key>logAmongFunction</key>
+	<string>interactivePainterEdge</string>
+	<key>nibBesideSystem</key>
+	<string>priorityContainBridge</string>
+</dict>
+</plist>

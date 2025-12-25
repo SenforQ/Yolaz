@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bulletAdapterBrightness</key>
+	<string>tabviewAndBridge</string>
+	<key>currentPriorityBorder</key>
+	<string>geometricSensorCoord</string>
+	<key>extensionPerStage</key>
+	<string>textfieldCycleRate</string>
+	<key>inactiveButtonDensity</key>
+	<string>elasticResultVisibility</string>
+	<key>inheritedRequestAlignment</key>
+	<string>autoProviderTint</string>
+	<key>logByStyle</key>
+	<string>giftLikeLayer</string>
+	<key>metadataAdapterDirection</key>
+	<string>scaleInterpreterColor</string>
+	<key>sliderStrategyDensity</key>
+	<string>serviceWithoutMode</string>
+	<key>subsequentTextFlags</key>
+	<string>backwardPreviewSkewx</string>
+</dict>
+</plist>

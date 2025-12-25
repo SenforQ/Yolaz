@@ -4,6 +4,7 @@ import 'package:flutter/services.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'rob_chat_page.dart';
 import 'video_full_page.dart';
+import '../services/coin_service.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -109,12 +110,80 @@ class HomePageState extends State<HomePage> {
                 ),
                 const SizedBox(height: 20),
                 GestureDetector(
-                  onTap: () {
-                    Navigator.of(context).push(
-                      MaterialPageRoute(
-                        builder: (context) => const RobChatPage(),
+                  onTap: () async {
+                    const int requiredCoins = 15;
+                    final currentCoins = await CoinService.getCurrentCoins();
+                    
+                    if (currentCoins < requiredCoins) {
+                      if (!mounted) return;
+                      showDialog(
+                        context: context,
+                        builder: (context) => AlertDialog(
+                          title: const Text('Insufficient Coins'),
+                          content: Text(
+                            'You need $requiredCoins Coins to use the ask Me feature. Your current balance is $currentCoins Coins.',
+                          ),
+                          actions: [
+                            TextButton(
+                              onPressed: () => Navigator.of(context).pop(),
+                              child: const Text('OK'),
+                            ),
+                          ],
+                        ),
+                      );
+                      return;
+                    }
+                    
+                    if (!mounted) return;
+                    final confirmed = await showDialog<bool>(
+                      context: context,
+                      builder: (context) => AlertDialog(
+                        title: const Text('Confirm Payment'),
+                        content: Text(
+                          'Using the ask Me feature will cost $requiredCoins Coins. Your current balance is $currentCoins Coins. Do you want to continue?',
+                        ),
+                        actions: [
+                          TextButton(
+                            onPressed: () => Navigator.of(context).pop(false),
+                            child: const Text('Cancel'),
+                          ),
+                          ElevatedButton(
+                            onPressed: () => Navigator.of(context).pop(true),
+                            style: ElevatedButton.styleFrom(
+                              backgroundColor: const Color(0xFF8B5CF6),
+                            ),
+                            child: const Text('Confirm'),
+                          ),
+                        ],
                       ),
                     );
+                    
+                    if (confirmed == true) {
+                      final success = await CoinService.consumeCoins(requiredCoins);
+                      if (!mounted) return;
+                      
+                      if (success) {
+                        Navigator.of(context).push(
+                          MaterialPageRoute(
+                            builder: (context) => const RobChatPage(),
+                          ),
+                        );
+                      } else {
+                        showDialog(
+                          context: context,
+                          builder: (context) => AlertDialog(
+                            title: const Text('Payment Failed'),
+                            content: const Text('Failed to process payment. Please try again.'),
+                            actions: [
+                              TextButton(
+                                onPressed: () => Navigator.of(context).pop(),
+                                child: const Text('OK'),
+                              ),
+                            ],
+                          ),
+                        );
+                      }
+                    }
                   },
                   child: Image.asset(
                     'assets/top_home_rob.webp',

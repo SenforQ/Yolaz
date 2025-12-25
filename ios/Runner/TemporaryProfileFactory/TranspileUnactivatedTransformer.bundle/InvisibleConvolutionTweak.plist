@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>appbarAsChain</key>
+	<string>challengeAndOperation</string>
+	<key>aspectPerDecorator</key>
+	<string>resultUntilComposite</string>
+	<key>asyncHistogramBehavior</key>
+	<string>fragmentCompositePressure</string>
+	<key>effectByPlatform</key>
+	<string>concreteSceneValidation</string>
+	<key>pivotalCycleSaturation</key>
+	<string>brushAtFramework</string>
+	<key>reducerLevelName</key>
+	<string>immediateAnimationAppearance</string>
+	<key>stampShapeCoord</key>
+	<string>transformerInsideMemento</string>
+	<key>storyboardVersusAdapter</key>
+	<string>nibAroundLevel</string>
+	<key>workflowAlongEnvironment</key>
+	<string>sizeAmongBuffer</string>
+</dict>
+</plist>

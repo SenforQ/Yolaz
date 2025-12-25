@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>awaitLikeTemple</key>
+	<string>gesturePrototypePadding</string>
+	<key>awaitPhaseTransparency</key>
+	<string>hardCacheShape</string>
+	<key>directPrecisionCount</key>
+	<string>stepProcessAcceleration</string>
+	<key>eagerStreamColor</key>
+	<string>sharedSceneBrightness</string>
+	<key>easyPromiseDensity</key>
+	<string>localMissionPosition</string>
+	<key>instructionContainParameter</key>
+	<string>modelWorkPosition</string>
+	<key>radiusJobLeft</key>
+	<string>currentInstructionPressure</string>
+	<key>responseTierEdge</key>
+	<string>nextChannelResponse</string>
+	<key>sensorBeyondState</key>
+	<string>cubitJobBound</string>
+	<key>tableAgainstTask</key>
+	<string>visibleInstructionDensity</string>
+</dict>
+</plist>

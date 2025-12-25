@@ -8,6 +8,7 @@ import 'user_agreement_page.dart';
 import 'about_us_page.dart';
 import 'feedback_page.dart';
 import 'yolaz_editor_page.dart';
+import 'wallet_page.dart';
 
 class MePage extends StatefulWidget {
   const MePage({super.key});
@@ -280,7 +281,7 @@ class _MePageState extends State<MePage> {
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
               _buildActionButton(
-                icon: Icons.settings,
+                iconPath: 'assets/profile_setting.webp',
                 label: 'Setting',
                 color: const Color(0xFF8B5CF6),
                 onTap: () {
@@ -296,7 +297,7 @@ class _MePageState extends State<MePage> {
                 },
               ),
               _buildActionButton(
-                icon: Icons.privacy_tip,
+                iconPath: 'assets/profile_privacy.webp',
                 label: 'Privacy Policy',
                 color: Colors.blue,
                 onTap: () {
@@ -308,7 +309,7 @@ class _MePageState extends State<MePage> {
                 },
               ),
               _buildActionButton(
-                icon: Icons.description,
+                iconPath: 'assets/profile_terms.webp',
                 label: 'Terms',
                 color: Colors.pink,
                 onTap: () {
@@ -326,7 +327,7 @@ class _MePageState extends State<MePage> {
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
               _buildActionButton(
-                icon: Icons.people,
+                iconPath: 'assets/profile_about.webp',
                 label: 'About us',
                 color: const Color(0xFF8B5CF6),
                 onTap: () {
@@ -338,7 +339,7 @@ class _MePageState extends State<MePage> {
                 },
               ),
               _buildActionButton(
-                icon: Icons.message,
+                iconPath: 'assets/profile_message.webp',
                 label: 'Message',
                 color: Colors.blue,
                 onTap: () {
@@ -349,8 +350,31 @@ class _MePageState extends State<MePage> {
                   );
                 },
               ),
-              const SizedBox(width: 100),
+              _buildActionButton(
+                iconPath: 'assets/profile_wallet.webp',
+                label: 'Wallet',
+                color: Colors.green,
+                onTap: () {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => const WalletPage(),
+                    ),
+                  );
+                },
+              ),
             ],
+          ),
+          const SizedBox(height: 20),
+          Visibility(
+            visible: false,
+            child: Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 20),
+              child: Image.asset(
+                'assets/profile_vip.webp',
+                width: double.infinity,
+                fit: BoxFit.contain,
+              ),
+            ),
           ),
         ],
       ),
@@ -358,7 +382,7 @@ class _MePageState extends State<MePage> {
   }
 
   Widget _buildActionButton({
-    required IconData icon,
+    required String iconPath,
     required String label,
     required Color color,
     VoidCallback? onTap,
@@ -376,17 +400,12 @@ class _MePageState extends State<MePage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Container(
-              width: 50,
-              height: 50,
-              decoration: BoxDecoration(
-                color: color.withOpacity(0.2),
-                borderRadius: BorderRadius.circular(12),
-              ),
-              child: Icon(
-                icon,
-                color: color,
-                size: 30,
+            Center(
+              child: Image.asset(
+                iconPath,
+                width: 32,
+                height: 32,
+                fit: BoxFit.contain,
               ),
             ),
             const SizedBox(height: 8),

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>gesturedetectorDecoratorStyle</key>
+	<string>displayableBulletRotation</string>
+	<key>interactorNearDecorator</key>
+	<string>assetBesideAdapter</string>
+	<key>interpolationFlyweightStyle</key>
+	<string>vectorAdapterBound</string>
+	<key>resourceCommandInteraction</key>
+	<string>cursorStrategyOrigin</string>
+	<key>stateAmongAction</key>
+	<string>textureInActivity</string>
+	<key>timerAmongPlatform</key>
+	<string>consumerByValue</string>
+</dict>
+</plist>

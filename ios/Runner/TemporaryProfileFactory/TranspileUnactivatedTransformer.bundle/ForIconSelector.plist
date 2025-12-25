@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>cupertinoControllerSize</key>
+	<string>completerBeyondLayer</string>
+	<key>elasticProviderSkewy</key>
+	<string>seamlessBorderRight</string>
+	<key>gestureParamCenter</key>
+	<string>marginIncludeMode</string>
+	<key>listviewLayerForce</key>
+	<string>completerBesideActivity</string>
+	<key>mediaqueryOfTask</key>
+	<string>streamLevelFeedback</string>
+	<key>positionedMediatorResponse</key>
+	<string>frameObserverDelay</string>
+	<key>priorChartTension</key>
+	<string>roleAgainstNumber</string>
+	<key>spriteInterpreterDirection</key>
+	<string>slashIncludeFunction</string>
+	<key>stackFormTop</key>
+	<string>originalIntegerName</string>
+</dict>
+</plist>

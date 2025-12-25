@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'workout_analysis_page.dart';
+import '../services/coin_service.dart';
 
 class GroupPage extends StatefulWidget {
   const GroupPage({super.key});
@@ -342,19 +343,87 @@ class _GroupPageState extends State<GroupPage> {
     return SizedBox(
       width: double.infinity,
       child: ElevatedButton(
-        onPressed: () {
-          Navigator.of(context)
-              .push(
-                MaterialPageRoute(
-                  builder: (context) => WorkoutAnalysisPage(
-                    selectedGoals: _selectedGoals.toList(),
-                    fitnessLevel: _selectedLevel ?? '',
-                    workoutDuration: _workoutDuration.toInt(),
-                    focusArea: _focusAreaController.text,
-                  ),
+        onPressed: () async {
+          const int requiredCoins = 25;
+          final currentCoins = await CoinService.getCurrentCoins();
+          
+          if (currentCoins < requiredCoins) {
+            if (!mounted) return;
+            showDialog(
+              context: context,
+              builder: (context) => AlertDialog(
+                title: const Text('Insufficient Coins'),
+                content: Text(
+                  'You need $requiredCoins Coins to use the group feature. Your current balance is $currentCoins Coins.',
                 ),
-              )
-              .then((_) => _resetForm());
+                actions: [
+                  TextButton(
+                    onPressed: () => Navigator.of(context).pop(),
+                    child: const Text('OK'),
+                  ),
+                ],
+              ),
+            );
+            return;
+          }
+          
+          if (!mounted) return;
+          final confirmed = await showDialog<bool>(
+            context: context,
+            builder: (context) => AlertDialog(
+              title: const Text('Confirm Payment'),
+              content: Text(
+                'Using the group feature will cost $requiredCoins Coins. Your current balance is $currentCoins Coins. Do you want to continue?',
+              ),
+              actions: [
+                TextButton(
+                  onPressed: () => Navigator.of(context).pop(false),
+                  child: const Text('Cancel'),
+                ),
+                ElevatedButton(
+                  onPressed: () => Navigator.of(context).pop(true),
+                  style: ElevatedButton.styleFrom(
+                    backgroundColor: const Color(0xFF8B5CF6),
+                  ),
+                  child: const Text('Confirm'),
+                ),
+              ],
+            ),
+          );
+          
+          if (confirmed == true) {
+            final success = await CoinService.consumeCoins(requiredCoins);
+            if (!mounted) return;
+            
+            if (success) {
+              Navigator.of(context)
+                  .push(
+                    MaterialPageRoute(
+                      builder: (context) => WorkoutAnalysisPage(
+                        selectedGoals: _selectedGoals.toList(),
+                        fitnessLevel: _selectedLevel ?? '',
+                        workoutDuration: _workoutDuration.toInt(),
+                        focusArea: _focusAreaController.text,
+                      ),
+                    ),
+                  )
+                  .then((_) => _resetForm());
+            } else {
+              showDialog(
+                context: context,
+                builder: (context) => AlertDialog(
+                  title: const Text('Payment Failed'),
+                  content: const Text('Failed to process payment. Please try again.'),
+                  actions: [
+                    TextButton(
+                      onPressed: () => Navigator.of(context).pop(),
+                      child: const Text('OK'),
+                    ),
+                  ],
+                ),
+              );
+            }
+          }
         },
         style: ElevatedButton.styleFrom(
           backgroundColor: const Color(0xFF8B5CF6),

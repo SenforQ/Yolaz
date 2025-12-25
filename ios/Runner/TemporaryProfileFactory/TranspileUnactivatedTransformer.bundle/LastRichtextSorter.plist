@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>animationAtLayer</key>
+	<string>inkwellCycleEdge</string>
+	<key>configurationPhaseTag</key>
+	<string>spotPhaseBehavior</string>
+	<key>indicatorAndForm</key>
+	<string>typicalPlaybackTop</string>
+	<key>integerTierStatus</key>
+	<string>heapDuringMode</string>
+	<key>newestMusicSpacing</key>
+	<string>beginnerSliderDistance</string>
+	<key>routerDecoratorAppearance</key>
+	<string>fixedPlateSkewx</string>
+	<key>semanticAssetCoord</key>
+	<string>chartActionVisibility</string>
+	<key>singlePriorityRight</key>
+	<string>interfaceByComposite</string>
+	<key>textureVarFrequency</key>
+	<string>declarativeTopicAppearance</string>
+</dict>
+</plist>
