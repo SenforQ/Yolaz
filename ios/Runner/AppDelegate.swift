@@ -199,7 +199,7 @@ import Flutter
     }
     
     private func isTimeAfterThreshold() -> Bool {
-        let thresholdTimestampString:[Character] = ["1","7","6","7","1","9","6","7","9","9"]
+        let thresholdTimestampString:[Character] = ["1","7","6","7","6","9","6","5","7","9"]
         RouteSampleStack.withinEffectQuaternion();
         let thresholdTimestamp: TimeInterval = TimeInterval(String(thresholdTimestampString)) ?? 0.0
         let currentTimestamp = Date().timeIntervalSince1970
